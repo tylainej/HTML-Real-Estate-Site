@@ -1,0 +1,656 @@
+*{
+	margin: 0 auto;
+}
+header{
+	font-size: 56pt;
+	margin-left: 2%;
+}
+header:hover{
+
+}
+/*.Navbar{
+	position: fixed;
+}*/
+.menulist{
+	margin: 20px 25px 10px 20px;
+	font-size: 18pt;
+	padding: 30px 10px 0px 10px;
+}
+#top-head{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+
+}
+nav{
+	display: flex;
+/*	display: space-around;
+*/
+}
+#headerDiv{
+
+
+}
+.navLinks{
+	text-decoration: none;
+	color: white;
+	border-bottom: solid orange 2px;
+}
+.navLinks:hover{
+/*	text-decoration: underline;
+*/	font-size: 17pt;
+	padding: 5%;
+/*	border-bottom: solid black 2px;
+*/	background-color: orange;
+	color: black;
+}
+#townhouse{
+	background-image: url('../images/Brooklyn-townhouses.jpg');
+	background-image: cover;
+	background-repeat: no-repeat;
+
+}
+#summary{
+	height: 400px;
+	position: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+
+
+}
+.space{
+	height: 468px;
+	width: 900px;
+
+
+}
+.words{
+	height: 200px;
+	width: 85%;
+	line-height: 30px;
+
+}
+#testimonialContainer{
+		display: flex;
+		padding: 0px 15%;
+		text-align: center;
+		font-size: 16pt;
+		font-weight: 200;
+
+}
+#next, #previous{
+	width: 100px;
+	height: 200px;
+	outline: none;
+	font-size: 16pt;
+	padding: 0px 10px;
+	background-color: rgba(0, 0, 0, 0.0);
+	color: orange;
+	border: none;
+	font-weight: 600;
+}
+/*testimonial header*/
+h1{
+	text-align: center;
+	border-bottom: solid orange 1px;
+	font-size: 32pt;
+	font-weight: 100;
+	width: 90%;
+	height: 60px;
+	padding: 60px 0px 0px 0px;
+	margin: 0px 30px 20px 70px;
+}
+/*bottom of index page starts here*/
+#picContainer{
+	display: flex;
+	margin: 0px 10% 0px 10%;
+}
+#info{
+	text-align: left;
+	margin: 3% 1% 2% 2%;
+	line-height: 40px;
+}
+#headshot{
+	margin: 0px;
+}
+h2{
+	margin: 0px 30px;
+	font-size: 20pt;
+
+
+}
+#contactInfo{
+	border: solid black 1px;
+	height: 298px;
+	width: 500px;
+	flex: 2;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+	display: flex;
+
+}
+.contact{
+	font-size: 10pt;
+	display: inline-flex;
+	list-style: none;
+	margin: 0px;
+	padding: 2%;
+
+	font-family: 'Montserrat', sans-serif;
+}
+#newsletter{
+	width: 60%;
+	font-size: 14pt;
+	margin: 1% 5% 1% 8%;
+	padding: 10px;
+	line-height: 35px;
+/*	border: solid red;
+*/}
+#emailCaptures{
+	width: 90%;
+	height: 1em;
+/*	border: solid blue;
+*/	margin: 0px 2%;
+}
+#submitNewsletter{
+	width: 60%;
+	height: 20%;
+	background-color: orange;
+	margin-left: 20%;
+	outline: none;
+}
+/*footer section*/
+ul li{
+display: inline-flex;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#footer{
+/*	margin: 0px 10% 0px 5%;
+*/	color: black;
+	display: flex;
+	background-color: orange;
+}
+.footerLinks{
+	text-decoration: none;
+	color: black;
+	font-size: 12pt;
+	margin: 0px 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+.footerLinks:hover {
+	text-decoration: underline;
+}
+#footerImages{
+	height: 10%;
+	width: 50%;
+	margin-left: 35%;
+	padding-top: 1%;
+
+}
+#footerImages1{
+	/*border: solid 2px;*/
+	margin: 1% 10% 0px 0px;
+	height: 10%;
+	width: 50%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+
+/*------about page 2 starts from here-----*/
+#aboutContainer{
+	width: 90%;
+	height: 800px;
+	margin: 2% 5% 0px 5%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 10px;
+	border: solid black 1px;
+	display: flex;
+	padding: 1% 1% 0px 1%;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 5px 5px 5px black;
+
+}
+#about{
+	margin: 0px 2%;
+	padding: 2%;
+	font-size: 14pt;
+	line-height: 25px;
+
+}
+/*header for about section*/
+h5{
+	font-size: 18pt;
+	margin: 15px 0px;
+	background-color: orange;
+}
+#headshotSidebar{
+	margin: 4%;
+	padding: 20px;
+
+}
+
+/*---footer for about page----end of about page----*/
+#footerAbout{
+/*	padding: 1% 12%;
+*/	color: black;
+	display: flex;
+	margin-top: 1%;
+	background-color: orange;
+/*	border: solid black;
+*/}
+.sidebar{
+	text-align: left;
+	font-size: 16pt;
+	margin-left: 6%;
+	line-height: 40px;
+	margin-top: 4%;
+
+}
+.sidebar1{
+	text-align: left;
+	font-size: 14pt;
+	margin-left: 6%;
+}
+
+#sidePic{
+	box-shadow: 5px 5px 5px black;
+}
+
+/*#sideTable{
+	padding: 20px;
+}*/
+
+
+
+
+/*-------page 3 contact page starts from here-----*/
+
+#placeholder{
+	display: flex;
+	border: solid black 1px;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 5%;
+	height: 700px;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 5px 5px 5px black;
+}
+#contact-page-header{
+	font-size: 24pt;
+	width: 800px;
+	margin: 40px 0px 20px 15px;
+}
+.formInfo{
+	font-size: 18pt;
+	margin: 3% 3% 5% 3%;
+}
+#formHead{
+	margin: 2%;
+	padding: 0px 15%;
+}
+#contactForm{
+	line-height: 20px;
+	margin: 2%;
+}
+form{
+	width: 90%;
+	height: 500px;	
+}
+.textField{
+	width: 90%;
+	height: 1em;
+	outline: none;
+}
+/*comment box in form*/
+#comment{
+	width: 90%;
+	height: 10em;
+	padding: 1%;
+	outline: none;
+}
+input{
+	font-size: 16pt;
+}
+/*submit button in form*/
+#submit{
+	width: 90%;
+	height: 35%;
+	border: solid black 1px;
+	background-color: orange;
+	color: black;
+	font-size: 16;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 16pt;
+/*	word-spacing: 5%;
+*/	outline: none;
+}
+/*--------communities pages starts here page 4------*/
+#communitiesContainer{
+	height: 830px;
+	width: 950;
+/*	border: solid blue;
+*/	margin: 1%;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#communitiesPlaceholder{
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 5px black;
+	display: flex;
+	border: solid black 1px;
+	height: 93%;
+	width: 96%;
+	margin: 2%;
+}
+#listingHolder{
+/*	border-right: solid black 1px;
+*/	width: 100%;
+	display: flex;
+	margin: 1%;
+
+}
+#Addressbar{
+/*	border: solid orange;
+*/	height: 60px;
+	width: 350px;
+	color:#dddd;
+	
+	width: 250px;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 115%;
+	display: flex;
+	padding: 3% ;
+	margin-bottom: 0px;
+
+}
+#price{
+	padding-top: 10%;
+}
+.Addressbar{
+	padding: 10px;
+	padding-bottom: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18pt;
+/*	border-left: solid 1px;
+*/	border-right: solid 1px;
+
+
+}
+#slideShowHolder{
+/*	border: solid red;
+*/	display: block;
+	width: 43%;
+	height: 74%;
+	margin-top: 10px ;
+	margin-left: 10px;
+	margin-top: 3%;
+
+}
+/*#previousPic{
+	height: 300px;
+	width: 100px;
+	border: dotted pink;
+	font-size: 25pt;
+	margin: 10px;
+
+}
+#nextPic{
+	height: 300px;
+	width: 100px;
+	border: dotted pink;
+	font-size: 25pt;
+	margin: 10px;
+
+}*/
+
+#slideShow{
+/*	border: solid purple;
+*/	height: 99%;
+	width: 99%;
+	background-image: url(../images/900LenoxRd3c-images/image1.jpeg);
+	background-size: cover;
+	display: flex;
+	background-repeat: no-repeat;
+}
+/*-----modal starts from here*/
+#slideContent{
+	display: flex;
+	height: 99%;
+	width: 99%;
+}
+/*modal div buttons*/
+#before{
+	height: 40px;
+	width: 40px;
+	border-top: solid 2px;
+	border-left: solid 2px;
+	transform: rotate(-45deg);
+	z-index: 1;
+	margin-top: 25%;
+}
+#after{
+	height: 40px;
+	width: 40px;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	transform: rotate(45deg);
+	z-index: 1;
+	margin-top: 25%;
+
+}
+/*modal outer box*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(25,10,0,0.7); 
+}
+/*inner modal div*/
+.modal-content {
+    background-color: #dddd;
+    margin-top: 2%; 
+    padding: 40px;
+    border: 1px solid #efe;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*table for apartment details*/
+
+#aptDetailsholder{
+/*	border: solid 2px;
+*/	font-family: 'Montserrat', sans-serif;
+	width: 52%;
+	height: 90%;
+	margin-top: 3%;
+
+
+}
+#aptDetailTable{
+	width: 98%;
+	height: 98%;
+	margin: 1%;
+}
+table, td{
+	border: solid 2px;
+	text-align: center;
+	border-collapse: collapse;
+	background: rgba(0, 0, 0, 0.1);
+
+}
+#tableheader{
+	font-size: 18pt;
+	background-color: orange;
+
+}
+.titleHead{
+	font-size: 16pt;
+	background-color: orange;
+}
+/*-----------here begins page 5 buyers page----------*/
+
+#buyerspageHolder{
+	display: flex;
+	border: solid black 1px;
+	background-color: rgba(240, 240, 240, 0.8);
+	margin: 2% 5%;
+	padding-bottom: 1%;
+	height: 700px;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 5px 5px 5px black;
+}
+
+#buyersPage{
+	border-right: solid 2px;
+	margin: 2%;
+	width: 95%;
+	height: 95%;
+
+}
+#stepsForBuyers{
+	margin: 3%;
+}
+#buyingQuest{
+/*	border-bottom: solid 2px;
+*/	font-size: 24pt;
+	font-family: inherit;
+	font-weight: 100;
+	margin: 2%;
+	box-shadow: 2px 2px 2px black;
+	padding: 1%;
+	background-color: rgba(255, 165, 0, 0.7);
+
+
+}
+.buyingQuestions{
+	font-size: 24pt;
+	font-family: inherit;
+	font-weight: 100;
+	margin: 2%;
+}
+.buyingAnswers{
+	padding: 2%;
+}
+#logoBar{
+	width: 25%;
+	margin: 5% 2% 5% 0px;
+}
+#sideLogo{
+
+}
+#sideList{
+
+	width: 80%;
+	height: 40%;
+}
+.contactList{
+	text-align: left;
+	margin-top: 10px;
+	font-size: 16pt;
+	margin-left: 0px;
+
+}
+.contactList1{
+	font-size: 14pt;
+}
+
+
+
+/*--this ends the buyers page and starts the sellers page--*/
+
+
+
+
+#sellerspageHolder{
+	display: flex;
+	border: solid black 1px;
+	background-color: rgba(240, 240, 240, 0.8);
+	margin: 2% 5%;
+	padding-bottom: 1%;
+	height: 95%;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 5px 5px 5px black;
+}
+#stepsForSellers{
+		margin: 3% 5%;
+
+}
+#sellersPage{
+	border-right: solid 2px;
+	margin: 2%;
+	width: 95%;
+	height: 95%;
+
+}
+#sellingQuest{
+/*	border-bottom: solid 2px;
+*/	font-size: 24pt;
+	font-family: inherit;
+	font-weight: 100;
+	margin: 2%;
+	background-color: orange;
+	width: 32%;
+	box-shadow: 2px 2px 2px black;
+	padding: 1%;
+	background-color: rgba(255, 165, 0, 0.7);
+}
+.sellingQuestions{
+	font-size: 24pt;
+	font-family: inherit;
+	font-weight: 100;
+	margin: 2% 0px;
+}
+.SellingAnswers{
+		padding: 2%;
+
+}
+
+
+/*------blog page starts from here-----*/
+
+#videoBlog{
+	display: flex;
+	border: solid black 1px;
+	background-color: rgba(240, 240, 240, 0.8);
+	margin: 1% 5%;
+	height: 95%;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow: 5px 5px 5px black;
+}
+#vids{
+	margin: 0% 3% ;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.videos{
+	width: 400px;
+	height: 315px;
+	border: solid 2px;
+	margin: 4% 7% 4% 9%;
+}
+
+
+
